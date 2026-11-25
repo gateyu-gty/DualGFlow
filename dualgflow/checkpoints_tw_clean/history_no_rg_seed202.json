@@ -1,0 +1,193 @@
+{
+  "stage1": [
+    {
+      "phase": "stage1",
+      "step": 0,
+      "val_flowtime": 32018.559482326586,
+      "val_gain_pct": -0.7698271584889631
+    },
+    {
+      "phase": "stage1",
+      "step": 1,
+      "val_flowtime": 31317.649655213398,
+      "val_gain_pct": 1.4360985069323238,
+      "s1_loss": 1.3233921686808268
+    }
+  ],
+  "stage2": [
+    {
+      "step": 0,
+      "episodes": 0,
+      "val_flowtime": 31317.649655213398,
+      "val_gain_pct": 1.4360985069323238
+    },
+    {
+      "step": 1,
+      "episodes": 4,
+      "train_gain_pct": 2.5583296510308866,
+      "norm_reward_mean": -9.744167034896918,
+      "critic_loss": 0.014589071291050425,
+      "explained_variance": 0.7799267245708318,
+      "clip_fraction": 0.001736111111111111,
+      "entropy": 0.507024637526936
+    },
+    {
+      "step": 2,
+      "episodes": 8,
+      "train_gain_pct": 3.0711665410242515,
+      "norm_reward_mean": -9.69288334589757,
+      "critic_loss": 0.015371499884942616,
+      "explained_variance": 0.7676316974225755,
+      "clip_fraction": 0.002006426660550965,
+      "entropy": 0.46031930877102745
+    },
+    {
+      "step": 3,
+      "episodes": 12,
+      "train_gain_pct": -1.444276035273837,
+      "norm_reward_mean": -10.14442760352739,
+      "critic_loss": 0.011628243925601797,
+      "explained_variance": 0.8081985319461049,
+      "clip_fraction": 0.00345462653785944,
+      "entropy": 0.5118772495124075
+    },
+    {
+      "step": 4,
+      "episodes": 16,
+      "train_gain_pct": 0.1334854626860591,
+      "norm_reward_mean": -9.986651453731403,
+      "critic_loss": 0.015128725122108503,
+      "explained_variance": 0.7948304184942766,
+      "clip_fraction": 0.002738864885436164,
+      "entropy": 0.5051259953114722,
+      "val_flowtime": 31222.07199816675,
+      "val_gain_pct": 1.7369035442770016
+    },
+    {
+      "step": 5,
+      "episodes": 20,
+      "train_gain_pct": -3.827556970463069,
+      "norm_reward_mean": -10.38275569704631,
+      "critic_loss": 0.013184547501926621,
+      "explained_variance": 0.8446349449048385,
+      "clip_fraction": 0.0010850694444444445,
+      "entropy": 0.5057902203665839
+    },
+    {
+      "step": 6,
+      "episodes": 24,
+      "train_gain_pct": -0.6530232328358678,
+      "norm_reward_mean": -10.065302323283587,
+      "critic_loss": 0.014462350850441941,
+      "explained_variance": 0.8428503977070527,
+      "clip_fraction": 0.0008680555555555555,
+      "entropy": 0.48363756636778515
+    },
+    {
+      "step": 7,
+      "episodes": 28,
+      "train_gain_pct": -4.683752347092135,
+      "norm_reward_mean": -10.468375234709214,
+      "critic_loss": 0.018423004601909605,
+      "explained_variance": 0.8761955422657868,
+      "clip_fraction": 0.0016288807253456777,
+      "entropy": 0.5497651505801413
+    },
+    {
+      "step": 8,
+      "episodes": 32,
+      "train_gain_pct": 0.386902215185621,
+      "norm_reward_mean": -9.961309778481445,
+      "critic_loss": 0.01919080951699504,
+      "explained_variance": 0.8892912234568249,
+      "clip_fraction": 0.016118213430874877,
+      "entropy": 0.4899238761928346,
+      "val_flowtime": 31610.77944357216,
+      "val_gain_pct": 0.5135511286150266
+    },
+    {
+      "step": 9,
+      "episodes": 36,
+      "train_gain_pct": 0.4699800602677109,
+      "norm_reward_mean": -9.953001993973238,
+      "critic_loss": 0.012181563251134422,
+      "explained_variance": 0.8528043209636972,
+      "clip_fraction": 0.006164625312926041,
+      "entropy": 0.4696769275599056
+    },
+    {
+      "step": 10,
+      "episodes": 40,
+      "train_gain_pct": -0.9163606287781914,
+      "norm_reward_mean": -10.091636062877818,
+      "critic_loss": 0.010312325312514548,
+      "explained_variance": 0.9111934665077647,
+      "clip_fraction": 0.0018146054870966408,
+      "entropy": 0.4898310767279731
+    },
+    {
+      "step": 11,
+      "episodes": 44,
+      "train_gain_pct": -2.944409330850969,
+      "norm_reward_mean": -10.294440933085095,
+      "critic_loss": 0.016572459350788483,
+      "explained_variance": 0.8852677856196847,
+      "clip_fraction": 0.005478648882773187,
+      "entropy": 0.47670118510723114
+    },
+    {
+      "step": 12,
+      "episodes": 48,
+      "train_gain_pct": -1.1962234702300925,
+      "norm_reward_mean": -10.119622347023007,
+      "critic_loss": 0.008815061240629465,
+      "explained_variance": 0.9057882142305603,
+      "clip_fraction": 0.00021701388888888888,
+      "entropy": 0.5554843611187406,
+      "val_flowtime": 31758.62821161869,
+      "val_gain_pct": 0.04823679085201751
+    },
+    {
+      "step": 13,
+      "episodes": 52,
+      "train_gain_pct": -1.5179202992120904,
+      "norm_reward_mean": -10.151792029921214,
+      "critic_loss": 0.014193052469097354,
+      "explained_variance": 0.8375137599387585,
+      "clip_fraction": 0.005253232756836547,
+      "entropy": 0.4972996993197335
+    },
+    {
+      "step": 14,
+      "episodes": 56,
+      "train_gain_pct": -9.471562025216997,
+      "norm_reward_mean": -10.947156202521708,
+      "critic_loss": 0.011233065018637313,
+      "explained_variance": 0.8695520320433358,
+      "clip_fraction": 0.001953125,
+      "entropy": 0.5525161971648535
+    },
+    {
+      "step": 15,
+      "episodes": 60,
+      "train_gain_pct": -6.282410443483898,
+      "norm_reward_mean": -10.628241044348385,
+      "critic_loss": 0.01385110314866459,
+      "explained_variance": 0.8775614290582868,
+      "clip_fraction": 0.0015190972222222222,
+      "entropy": 0.4900360107421875
+    },
+    {
+      "step": 16,
+      "episodes": 64,
+      "train_gain_pct": -1.9684747134129448,
+      "norm_reward_mean": -10.196847471341298,
+      "critic_loss": 0.01020553784824356,
+      "explained_variance": 0.9395137611711559,
+      "clip_fraction": 0.0007608251697901222,
+      "entropy": 0.5226034712460306,
+      "val_flowtime": 31627.872111392753,
+      "val_gain_pct": 0.4597565416689937
+    }
+  ]
+}
